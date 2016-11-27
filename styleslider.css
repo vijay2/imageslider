@@ -1,0 +1,43 @@
+  body {
+      margin: 0px;
+      padding: 0 0 0 0;
+  }
+  
+  .outerdiv {
+      position: relative;
+      overflow: hidden;
+      display: block;
+      box-sizing: border-box;
+      padding: 50px;
+  }
+  
+  .after {
+      overflow: hidden;
+      position: absolute;
+      border-right: 4px solid #000000;
+  }
+  
+  .outerdiv img {
+      float: left;
+  }
+  
+  .after.addborder {
+      border-right: 4px solid #000000 !important;
+  }
+  
+  .outerdiv .slider {
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      background-color: #096FF8;
+      color: #F9F5F6;
+      padding: 5px;
+  }
+  
+  .outerdiv .swipeslider {
+      position: relative;
+      overflow: hidden;
+      box-sizing: border-box;
+      height: auto;
+      display: block;
+  }
