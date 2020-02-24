@@ -1,11 +1,10 @@
 # imageslider
 
-check the demo :
+check the demo:
 https://imageslider.herokuapp.com/
 
 
-How to deploy:
-Usage:-
+How to use:
 $(".swipeslider").swipeSlider();
 
 Please maintain HTML structure as given in index.html file
